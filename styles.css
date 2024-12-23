@@ -1,0 +1,102 @@
+/* 設定整體樣式 */
+body {
+    font-family: Arial, sans-serif; /* 使用Arial字體 */
+    background-color: #f8f4ec; /* 背景顏色 */
+    color: #333; /* 文字顏色 */
+    margin: 0; /* 取消預設邊距 */
+    padding: 0; /* 取消預設內邊距 */
+    display: flex; /* 使用彈性盒子布局 */
+    flex-direction: column; /* 垂直排列 */
+    align-items: center; /* 中央對齊 */
+    min-height: 100vh; /* 最小高度為視口高度 */
+    background-image: url('page/loginbg.jpg'); /* 設定背景圖片 */
+    background-size: cover; /* 背景圖片覆蓋整個區域 */
+    background-repeat: no-repeat; /* 不重複圖片 */
+    background-attachment: fixed; /* 固定背景 */
+    background-position: center; /* 背景圖片置中 */
+}
+
+/* 標題樣式 */
+header {
+    background-color: #ffffff; /* 標題背景顏色 */
+    padding: 20px; /* 內邊距 */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 陰影效果 */
+    width: 100%; /* 寬度100% */
+    text-align: center; /* 文字置中 */
+    font-size: 2em; /* 字體大小 */
+    font-weight: bold; /* 字體加粗 */
+    margin-top: 0;
+}
+
+/* 主要容器樣式 */
+.container {
+    display: flex; /* 使用彈性盒子 */
+    flex-direction: column; /* 垂直排列 */
+    align-items: center; /* 中央對齊 */
+    justify-content: center; /* 垂直居中 */
+    width: 90%; /* 寬度90% */
+    max-width: 800px; /* 最大寬度 */
+    margin: auto; /* 自動邊距 */
+    flex-grow: 1; /* 填滿剩餘空間 */
+}
+
+/* 輸入組樣式 */
+.input-group {
+    display: flex; /* 使用彈性盒子 */
+    align-items: center; /* 垂直居中 */
+    margin-bottom: 20px; /* 下邊距 */
+}
+
+/* 標籤樣式 */
+.input-group label {
+    margin-right: 10px; /* 右邊距 */
+    font-size: large; /* 字體大小 */
+    color: #333; /* 文字顏色 */
+}
+
+/* 輸入框樣式 */
+.input-group input {
+    padding: 5px; /* 內邊距 */
+    font-size: 16px; /* 字體大小 */
+    width: 200px; /* 寬度 */
+    border-radius: 20px; /* 圓角邊框 */
+}
+
+/* 按鈕樣式 */
+button {
+    padding: 15px 30px; /* 內邊距 */
+    border-radius: 5px; /* 圓角邊框 */
+    background: #4CAF50; /* 背景顏色 */
+    color: #333; /* 文字顏色 */
+    font-size: large; /* 字體大小 */
+    border: none; /* 無邊框 */
+    cursor: pointer; /* 游標變成手型 */
+    margin-top: 20px; /* 上邊距 */
+}
+
+/* 頁腳樣式 */
+footer {
+    padding: 20px; /* 內邊距 */
+    text-align: center; /* 文字置中 */
+    width: 100%; /* 寬度100% */
+    background-color: #ffffff; /* 背景顏色 */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* 陰影效果 */
+    position: relative; /* 相對定位 */
+    bottom: 0; /* 底部對齊 */
+    margin-top: auto; /* 自動邊距 */
+}
+
+/* 輔助容器樣式 */
+.lk {
+    display: flex; /* 使用彈性盒子 */
+    background-color: #ffffff; /* 背景顏色 */
+    flex-direction: column; /* 垂直排列 */
+    align-items: center; /* 中央對齊 */
+    justify-content: center; /* 垂直居中 */
+    width: 90%; /* 寬度90% */
+    max-width: 300px; /* 最大寬度 */
+    max-height: 300px; /* 最大高度 */
+    margin: auto; /* 自動邊距 */
+    flex-grow: 1; /* 填滿剩餘空間 */
+    border-radius: 20px; /* 圓角邊框 */
+}

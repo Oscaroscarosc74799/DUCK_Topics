@@ -6,36 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>食全食美，線上點餐系統</title>
     <link rel="stylesheet" href="ostyle.css">
-    <style></style>
+    <script src="order.js" defer></script>
 </head>
 
 <body>
     <header>食全食美，線上點餐系統</header>
     <div class="container">
         <div class="btns">
-            <button class="btn1">潛艇堡</button>
-            <button class="btn2">沙拉</button>
-            <button class="btn2">飲料及點心</button>
+            <button class="showButton" data-array="0">潛艇堡</button>
+            <button class="showButton" data-array="1">沙拉</button>
+            <button class="showButton" data-array="2">飲料及點心</button>
         </div>
         <div class="food-items">
-            <div class="food-item">
+            <div class="food-item targetElement" id="subway">
                 <img src="page/bsubway.jpeg" alt="潛艇堡1">
                 <p>燒烤牛肉 - $105.00</p>
             </div>
-            <div class="food-item">
+            <div class="food-item targetElement" id="subway2">
                 <img src="page/csubway.jpeg" alt="潛艇堡2">
                 <p>照燒雞肉 - $100.00</p>
             </div>
-            <div class="food-item">
+            <div class="food-item targetElement" id="subway3">
                 <img src="page/ssubway.jpeg" alt="潛艇堡3">
                 <p>薄切牛排 - $110.00</p>
             </div>
-            <div class="food-item">
+            <div class="food-item targetElement" id="subway4">
                 <img src="page/psubway.jpeg" alt="潛艇堡4">
                 <p>經典火腿 - $90.00</p>
             </div>
         </div>
-
+        <div class="food-items">
+            <div class="food-item targetElement" id="salad">
+                <img src="page/bsalad.jpeg" alt="沙拉1">
+                <p>牛肉沙拉 - $80.00</p>
+            </div>
+            <div class="food-item targetElement" id="salad2">
+                <img src="page/osalad.jpeg" alt="沙拉2">
+                <p>經典沙拉 - $60.00</p>
+            </div>
+            <div class="food-item targetElement" id="salad3">
+                <img src="page/csalad.jpeg" alt="沙拉3">
+                <p>起司沙拉 - $70.00</p>
+            </div>
+            <div class="food-item targetElement" id="salad4">
+                <img src="page/fsalad.jpeg" alt="沙拉4">
+                <p>鮪魚沙拉 - $70.00</p>
+            </div>
+        </div>
+        <div class="food-items">
+            <div class="food-item targetElement" id="other">
+                <img src="page/pc.jpeg" alt="薯餅">
+                <p>薯餅 - $40.00</p>
+            </div>
+            <div class="food-item targetElement" id="other2">
+                <img src="page/croll.jpeg" alt="雞肉蛋沙拉捲餅">
+                <p>雞肉蛋沙拉捲餅 - $60.00</p>
+            </div>
+            <div class="food-item targetElement" id="other3">
+                <img src="page/cookie.jpeg" alt="巧克力餅乾">
+                <p>巧克力餅乾 - $50.00</p>
+            </div>
+            <div class="food-item targetElement" id="other4">
+                <img src="page/coke.jpeg" alt="可樂">
+                <p>可樂 - $35.00</p>
+            </div>
+        </div>
         <button
             style="padding: 15px 30px; border-radius: 5px; background: #4CAF50; color: #fff; border: none; cursor: pointer;">結帳</button>
     </div>
